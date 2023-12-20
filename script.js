@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", performAction());
+document.addEventListener("DOMContentLoaded", handleFunctionality);
 
-function performAction() {
+function handleFunctionality() {
   let myForm = document.getElementById("myForm");
   let greetingText = document.getElementById("greeting");
   let clearName = document.getElementById("clearName");
