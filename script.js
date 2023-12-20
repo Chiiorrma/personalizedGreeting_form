@@ -24,6 +24,7 @@ function performAction() {
       greetUser(userName);
     }
   };
+
   //Event listener to clear saved name
   clearName.addEventListener('click', performClear);
 
