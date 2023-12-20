@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 40px;
+  background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255)100.5%);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid grey;
+}
+
+h1,
+label,
+#greeting {
+  color: #000;
+}
+
+.form-control {
+  margin: 20px 0;
+  background: radial-gradient(897px at 10.4% 22.3%, rgb(255, 235, 238) 0%, rgb(186, 190, 245) 93.6%);
+  padding: 20px 20px;
+}
+
+label {
+  font-size: 16px;
+  text-align: left;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#greeting {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+
+#submit:hover {
+  background: white;
+  color: blue;
+}
+
+#clearName:hover {
+  background: black;
+  color: yellow;
+}
+
+footer {
+  font-family: monospace;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
