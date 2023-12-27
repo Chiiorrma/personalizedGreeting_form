@@ -6,6 +6,7 @@ function handleFunctionality() {
   let clearName = document.getElementById("clearName");
 
   greetUser();
+
   //Checks if the user's name is stored on page load
   const savedName = localStorage.getItem("userName");
   if (savedName) {
