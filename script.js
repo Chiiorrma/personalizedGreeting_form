@@ -5,6 +5,7 @@ function handleFunctionality() {
   let greetingText = document.getElementById("greeting");
   let clearName = document.getElementById("clearName");
 
+  greetUser();
   //Checks if the user's name is stored on page load
   const savedName = localStorage.getItem("userName");
   if (savedName) {
@@ -34,6 +35,7 @@ function handleFunctionality() {
   };
 
   function greetUser(name) {
+    greetingText.innerHTML = `Hello there👋, Please enter your name.`
     if (name) {
       greetingText.innerHTML = `Welcome ${name}! It's nice to meet you😊.`;
     } else {
