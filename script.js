@@ -25,6 +25,7 @@ function handleFunctionality() {
       localStorage.setItem('userName', userName);
       greetUser(userName);
     }
+    userNameInput.value = '';
   };
 
   //Event listener to clear saved name
